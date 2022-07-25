@@ -61,7 +61,7 @@ int get_asuspi_info(asuspi_info *info)
 		{
 			found = 1;
 		}
-		elif if (strcmp(hardware, "S R2.0") == 0)
+		else if (strcmp(hardware, "S R2.0") == 0)
 		{
 			found = 1;
 		} // add variants here.
